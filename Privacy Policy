@@ -1,0 +1,34 @@
+Privacy Policy
+
+Updated 06/04/2024
+
+>>> Part 1: Discord Data
+
+Ereshbot does not log your sensitive data.
+
+First, take a look for a moment at the following Discord support page:
+https://support.discord.com/hc/en-us/articles/7933951485975-Visibility-of-Bot-Data-Access
+
+As you can see, anyone can look at what data a discord bot is even **capable** of seeing by simply checking their profile in the discord app.
+While Ereshbot has access to the baseline data that all discord bots have access to, it has nothing more. Additionally, I have manually disabled most 
+intents to further reduce what Ereshbot can see to only the data that is absolutely necessary.
+
+The full list of possible "intents," that is, events that a discord bot can have access to is available here:
+https://discord.com/developers/docs/topics/gateway#gateway-intents
+
+I have disabled all intents except for "Guilds," the very first intent. I have kept this intent only because it is required for the `/help emoji` command to work.
+
+Not only does EreshBot not log your DM or Server messages; it cannot even see them.
+
+Of the small portion of baseline data that EreshBot does recieve, EreshBot does log some of it for diagnostic purposes.
+
+>>> Part 2: User Submitted Data
+
+If you provide EreshBot a friend code via `/setrayshift`, it will keep a mapping of that friend code to your discord user id. This allows you to use the /rayshift and /textsupport commands
+to look up your support without providing your name, and also lets other people look it up by your name. It will also keep your privacy setting, which can prevent others from looking up
+your support with either command (note that I have no control over whether people can look it up on the actual Rayshift.io site).
+
+If you look up your support with /textsupport, Eresh will keep a copy of the response it recieves. This helps prevent spam and can allow you to look up a copy of your last queried support
+even if the game is in maintenance.
+
+EreshBot does not collect any other user submitted data.
